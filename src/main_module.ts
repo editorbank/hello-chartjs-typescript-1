@@ -106,6 +106,7 @@ export function on_load() {
   div2.style.width = '600px';
   div2.style.height = '300px';
   div2.style.border = '1px solid gray';
+  div2.style.padding = '10px'
   var h2 = document.createElement('h2') as HTMLHeadingElement;
   h2.textContent = in_data.labelY;
   document.body.appendChild(h2);

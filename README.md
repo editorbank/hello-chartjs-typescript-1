@@ -1,5 +1,6 @@
-# 🚀 Welcome to your new awesome project!
+# Hello chart.js project on typescript.
 
+## Building
 This project has been created using **webpack-cli**, you can now run
 
 ```
@@ -13,3 +14,10 @@ yarn build
 ```
 
 to bundle your application
+
+## Developing
+For dedevoping run:
+```
+npm run watch
+```
+and open in browser `.\dist\index.html`
