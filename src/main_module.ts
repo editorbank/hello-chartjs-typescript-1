@@ -106,8 +106,7 @@ export function on_load() {
   div2.style.width = '600px';
   div2.style.height = '300px';
   div2.style.border = '1px solid gray';
-  var opts :ElementCreationOptions = new Option();
-  var h2 = document.createElement('h2',opts) as HTMLHeadingElement;
+  var h2 = document.createElement('h2') as HTMLHeadingElement;
   h2.textContent = in_data.labelY;
   document.body.appendChild(h2);
   var canvas2 = document.createElement('canvas') as HTMLCanvasElement;
